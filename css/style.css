@@ -117,3 +117,48 @@ h1{
     background: transparent;
     color: white;
 }
+.details1{
+    display: none;
+}
+.design1{
+    display: show;
+}
+.details2{
+    display: none;
+}
+.design2{
+    display: show;
+}
+.details3{
+    display: none;
+
+}
+.design3{
+    display: show;
+}
+#desc-des{
+    display: none;
+    text-align: center;
+  }
+  
+  #desc-dev{
+    display: none;
+    text-align: center;
+  }
+  
+  #desc-prod{
+    display: none;
+    text-align: center;
+  }
+  @media screen and (max-width: 601px) {
+    #what-we-do h1::after {
+      margin: 15px auto 20px;
+      width: 35%;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    #what-we-do .doings {
+      height: auto;
+      cursor: pointer;
+    }
+}
