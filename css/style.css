@@ -71,3 +71,49 @@ h1{
     padding:2px;
     
 }
+
+.row{
+    padding: 0%;
+}
+.card-footer{
+    text-align: center;
+
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.delani{
+    margin-top: 20px;
+}
+.contact-form{
+    text-align: center;
+    padding: 2%;
+    background-image: url(../images/backgrounds/c_image.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.contact{
+
+    color: white;
+    font-size:30px;
+    background: transparent;
+    margin: 0%;
+    text-align: center;
+}
+#name{
+    width: 30%;  
+    color: white;
+    background: transparent;
+}
+#email{
+    width: 30%;
+    background: transparent;
+    color: white;
+}
+#area{
+    width: 50%;
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+}
