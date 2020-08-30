@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+}
+
+.head{
+font-family: 'Bungee Inline', cursive;
+
+}
+
+
+#first{
+    color: white;
+    background-image: url("../images/backgrounds/h_img.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100% 100%;
+    padding: 50px;
+    background-clip: border-box;
+    margin: 0%;
+}
