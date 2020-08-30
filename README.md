@@ -30,6 +30,6 @@
 
 ### Contact Information
 
-* For more information abou this, you could send an email to ellykiplangat200@gmail.com
+* For more information abou this, you could send an email to denismutai95@gmail.com
 
 MIT Copyright (c)2020 Dennis Mutai
