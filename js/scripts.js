@@ -15,3 +15,21 @@ $(document).ready(function(){
       $(".details2").toggle();
       $(".design2").toggle();
     });
+
+    $(".design3").click(function() {
+        $(".design3").toggle();
+        $(".details3").toggle();
+      });
+      $(".details3").click(function() {
+        $(".details3").toggle();
+        $(".design3").toggle();
+      });
+      
+      //Hovering images
+    
+       $('.port_desc').hover(function(){
+        $('.porttext',this).slideToggle('slow');
+     }, function(){
+        $('.porttext',this).slideToggle('slow');
+     });
+    
