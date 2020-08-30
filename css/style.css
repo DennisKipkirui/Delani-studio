@@ -46,3 +46,28 @@ h1{
     background-repeat: no-repeat;
        
 }
+#to-do{
+    text-align: center;
+    padding: 10px;
+}
+.perform{
+    text-align: center;
+    display: 0;
+    margin-top: 20px;
+    
+}
+.container{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+}
+#bottom{
+
+    margin-bottom: 50px;
+
+}
+.col{
+    padding:2px;
+    
+}
