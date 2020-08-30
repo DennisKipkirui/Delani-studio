@@ -15,39 +15,37 @@ $(document).ready(function(){
       $(".details2").toggle();
       $(".design2").toggle();
     });
-
     $(".design3").click(function() {
-        $(".design3").toggle();
-        $(".details3").toggle();
-      });
-      $(".details3").click(function() {
-        $(".details3").toggle();
-        $(".design3").toggle();
-      });
-      
-      //Hovering images
+      $(".design3").toggle();
+      $(".details3").toggle();
+    });
+    $(".details3").click(function() {
+      $(".details3").toggle();
+      $(".design3").toggle();
+    });
     
-       $('.port_desc').hover(function(){
-        $('.porttext',this).slideToggle('slow');
-     }, function(){
-        $('.porttext',this).slideToggle('slow');
-     });
-
-      // form submission effect
-  $("#submission").submit(function(event){
-    var data_1 = $("input:first").val();
-    var data_2 = $("input#mail").val();
-    if(data_1 && data_2 != ""  ){
-     alert("Thank you " + data_1 + " Your message has been received!");
-      $(".message").removeClass("error");
-      $(".message").addClass("success");
-    }else{
-     alert("Error!!! Please fill in all the details correctly");
-      $(".message").addClass("error");
-    }
-    event.preventDefault();
-  });
-
+    //Hovering imagas
   
-});
+     $('.port_desc').hover(function(){
+      $('.porttext',this).slideToggle('slow');
+   }, function(){
+      $('.porttext',this).slideToggle('slow');
+   });
+  
+    // form submission effect
+    $("#submission").submit(function(event){
+      var data_1 = $("input:first").val();
+      var data_2 = $("input#mail").val();
+      if(data_1 && data_2 != ""  ){
+       alert("Thank you " + data_1 + " Your message has been received!");
+        $(".message").removeClass("error");
+        $(".message").addClass("success");
+      }else{
+       alert("Error!!! Please fill in all the details correctly");
+        $(".message").addClass("error");
+      }
+      event.preventDefault();
+    });
+  
     
+  });
